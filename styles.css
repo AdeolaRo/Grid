@@ -1,0 +1,38 @@
+.grid {
+   
+    display: block;
+    font-size: 48px;
+    display: grid;
+    height: 350px;
+    width: 900px;
+    text-align-last: center;
+    grid-template-areas: 
+     "A A A A"
+     "B E E D"
+     "C C C C";
+
+ }
+
+
+.footer{
+    grid-area: C;
+    background-color: blue
+    
+}
+.menu1{
+    grid-area: B;
+    background-color: rgb(0, 255, 64)
+}
+.menu2{
+    grid-area: D;
+    background-color: rgb(255, 0, 55)
+}
+.main{
+    grid-area: E;
+    background-color: rgb(225, 0, 255)
+}
+
+.header{
+    grid-area: A;
+    background-color: rgb(216, 203, 17)
+}
